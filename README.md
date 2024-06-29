@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio-OAk-Tecnologia
 
-## Getting Started
+## Como Rodar o Projeto
 
-First, run the development server:
+### Pré-requisitos
 
-```bash
+Antes de começar, certifique-se de ter instalado:
+
+- Node.js
+- npm (ou Yarn, caso prefira)
+
+### Passos para Executar o Projeto
+
+1. **Clone o repositório**
+
+
+Instale as dependências
+
+npm install
+# ou
+yarn install
+
+Execute o servidor de desenvolvimento
+
 npm run dev
-# or
+ ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Bibliotecas Utilizadas
+### Next.js: Framework React para renderização do lado do servidor (SSR) e geração de páginas estáticas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Motivo de Uso: Facilita a criação de aplicações React com SSR e geração estática, otimizando o desempenho e SEO.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Tailwind CSS: Framework CSS utilitário de baixo nível.
 
-## Learn More
+Motivo de Uso: Oferece classes utilitárias para estilização responsiva e rápida prototipação de interfaces.
 
-To learn more about Next.js, take a look at the following resources:
+### React Hook Form: Biblioteca para gerenciar formulários em React de forma simples e eficiente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Motivo de Uso: Facilita a validação e gerenciamento de estado de formulários com React.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
